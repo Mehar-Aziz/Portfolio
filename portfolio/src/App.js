@@ -1,15 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Navbar from './components/Navbar'; 
+import Portfolio from './pages/portfolio.jsx';
 
 function App() {
   return (
     <Router>
-      <Navbar />
       <div>
         <Routes>
-         {/* <Route path="/" Component={<About />} />*/}
-          
+          <Route path="/" element={<Portfolio />} />
         </Routes>
       </div>
     </Router>
