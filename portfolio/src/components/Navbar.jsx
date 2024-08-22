@@ -1,5 +1,5 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Ensure Bootstrap is imported
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 import profileImage from '../assets/img/profile.png';
 import '../styles/resume.css'
 
@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
       <a className="navbar-brand js-scroll-trigger" href="#page-top">
-        <span className="d-block d-lg-none">Start Bootstrap</span>
+        <span className="d-block d-lg-none">Mehar Aziz</span>
         <span className="d-none d-lg-block">
           <img
             className="img-fluid img-profile rounded-circle mx-auto mb-2"
@@ -45,7 +45,7 @@ const Navbar = () => {
             <a className="nav-link js-scroll-trigger" href="#interests">Interests</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#awards">Awards</a>
+            <a className="nav-link js-scroll-trigger" href="#awards">Projects</a>
           </li>
         </ul>
       </div>
