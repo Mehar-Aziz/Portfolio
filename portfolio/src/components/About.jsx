@@ -9,7 +9,7 @@ const About = () => {
         </h1>
         <div className="subheading mb-5">
           J Block Johar Town · Lahore, Punjab, Pakistan · (333) 252-5802 ·
-          <a href="mailto:name@email.com">meharaziz.1614@gmail.com</a>
+          <a href="mailto:meharaziz.1614@gmail.com">meharaziz.1614@gmail.com</a>
         </div>
         <p className="mb-5">
         I am a Full-Stack Developer with expertise in React.js, Node.js, and databases. As an AI/ML enthusiast, I explore cutting-edge technologies to create impactful solutions and drive innovation in software development.
