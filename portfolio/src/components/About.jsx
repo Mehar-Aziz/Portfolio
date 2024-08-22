@@ -19,7 +19,7 @@ const About = () => {
             <a href="#">
               <span className="fa-stack fa-lg">
                 <i className="fa fa-circle fa-stack-2x"></i>
-                <i className="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                <i className="fa-brands fa-facebook-f fa-stack-1x fa-inverse"></i>
               </span>
             </a>
           </li>
@@ -27,7 +27,7 @@ const About = () => {
             <a href="#">
               <span className="fa-stack fa-lg">
                 <i className="fa fa-circle fa-stack-2x"></i>
-                <i className="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                <i className="fa-brands fa-instagram fa-stack-1x fa-inverse"></i>
               </span>
             </a>
           </li>
@@ -35,7 +35,7 @@ const About = () => {
             <a href="#">
               <span className="fa-stack fa-lg">
                 <i className="fa fa-circle fa-stack-2x"></i>
-                <i className="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                <i className="fa-brands fa-linkedin-in fa-stack-1x fa-inverse"></i>
               </span>
             </a>
           </li>
@@ -43,7 +43,7 @@ const About = () => {
             <a href="#">
               <span className="fa-stack fa-lg">
                 <i className="fa fa-circle fa-stack-2x"></i>
-                <i className="fa fa-github fa-stack-1x fa-inverse"></i>
+                <i className="fa-brands fa-github fa-stack-1x fa-inverse"></i>
               </span>
             </a>
           </li>
