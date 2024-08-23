@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
-import profileImage from '../assets/img/profile.png';
+import profileImage from '../assets/img/WhatsApp Image 2024-08-23 at 7.48.40 PM.jpeg';
 import '../styles/resume.css'
 
 const Navbar = () => {
