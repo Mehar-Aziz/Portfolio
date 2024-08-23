@@ -48,6 +48,10 @@ const About = () => {
             </a>
           </li>
         </ul>
+        <br />
+        <a href="/MeharAzizResume.pdf" download>
+          <button>Download Resume</button>
+        </a>
       </div>
     </section>
   );
