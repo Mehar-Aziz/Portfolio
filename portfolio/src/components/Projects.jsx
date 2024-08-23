@@ -5,7 +5,6 @@ const projects = [
   {
     title: "Database Website For Freelance Office in SQl",
     description: "Built a web platform for managing freelance tasks, clients, and finances using SQL for database management.",
-    image: googleAnalyticsImage,
   },
   {
     title: "Virtual Mouse Control Using Hand Gestures",
@@ -42,7 +41,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <Col md={6} key={index}>
               <Card className="mb-4">
-              <Card.Img variant="top" src={award.image} alt={award.title} />
+              <Card.Img variant="top" src={project.image} alt={project.title} />
                 <Card.Body>
                   <Card.Title>{project.title}</Card.Title>
                   <Card.Text>{project.description}</Card.Text>
