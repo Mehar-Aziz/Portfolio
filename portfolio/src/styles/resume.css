@@ -113,4 +113,24 @@ body {
     color: #4A7766; }
     a:hover, a:focus, a:active {
       color: #4A7766; }
+
+      .project-card {
+        width: 100%;
+        height: 350px; 
+        display: flex;
+        flex-direction: column;
+        color: #868e96;
+        cursor: pointer;
+      }
+      .project-title {
+        font-weight: bold;
+        color: #495057;
+      }
+      
+      .project-image {
+        width: 100%;
+        height: 200px;
+        object-fit:contain;
+        border-radius: 4px 4px 0 0;
+      }
   

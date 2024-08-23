@@ -57,7 +57,7 @@ const Projects = () => {
               <Card className="mb-4 project-card">
               <Card.Img variant="top" src={project.image} alt={project.title} className='project-image' />
                 <Card.Body>
-                  <Card.Title>{project.title}</Card.Title>
+                  <Card.Title className='project-title'>{project.title}</Card.Title>
                   <Card.Text>{project.description}</Card.Text>
                 </Card.Body>
               </Card>
