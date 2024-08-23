@@ -21,7 +21,7 @@ const About = () => {
         </p>
         <ul className="list-inline list-social-icons mb-0">
           <li className="list-inline-item">
-            <a href="#">
+          <a href="https://www.facebook.com/profile.php?id=61561650095275&mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer">
               <span className="fa-stack fa-lg">
                 <i className="fa fa-circle fa-stack-2x"></i>
                 <i className="fa-brands fa-facebook-f fa-stack-1x fa-inverse"></i>
@@ -29,7 +29,7 @@ const About = () => {
             </a>
           </li>
           <li className="list-inline-item">
-            <a href="#">
+             <a href="https://www.instagram.com/mehar_._aziz?igsh=NzJkYmd2a2k4OWQz&utm_source=qr" target="_blank" rel="noopener noreferrer">
               <span className="fa-stack fa-lg">
                 <i className="fa fa-circle fa-stack-2x"></i>
                 <i className="fa-brands fa-instagram fa-stack-1x fa-inverse"></i>
@@ -37,7 +37,7 @@ const About = () => {
             </a>
           </li>
           <li className="list-inline-item">
-            <a href="#">
+             <a href="https://www.linkedin.com/in/mehar-aziz-b588a0281" target="_blank" rel="noopener noreferrer">
               <span className="fa-stack fa-lg">
                 <i className="fa fa-circle fa-stack-2x"></i>
                 <i className="fa-brands fa-linkedin-in fa-stack-1x fa-inverse"></i>
@@ -45,7 +45,7 @@ const About = () => {
             </a>
           </li>
           <li className="list-inline-item">
-            <a href="#">
+             <a href="https://github.com/Mehar-Aziz" target="_blank" rel="noopener noreferrer">
               <span className="fa-stack fa-lg">
                 <i className="fa fa-circle fa-stack-2x"></i>
                 <i className="fa-brands fa-github fa-stack-1x fa-inverse"></i>
