@@ -5,8 +5,13 @@ const About = () => {
     <section className="resume-section p-3 p-lg-5 d-flex d-column" id="about">
       <div className="my-auto">
         <h1 className="mb-0">
-          Mehar <span className="text-primary">Aziz</span>
+          I am <section className="animation">
+    <div className="first"><div>Mehar Aziz</div></div>
+    <div className="second"><div>Web Developer</div></div>
+    <div className="third"><div>Software Engineer</div></div>
+  </section>
         </h1>
+        <br />
         <div className="subheading mb-5">
           J Block Johar Town · Lahore, Punjab, Pakistan · (333) 252-5802 ·
           <a href="mailto:meharaziz.1614@gmail.com">meharaziz.1614@gmail.com</a>
