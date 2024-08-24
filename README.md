@@ -2,8 +2,6 @@
 
 Welcome to my personal portfolio! This project showcases my skills, projects, and experience as a Full-Stack Developer. The portfolio is built using modern web technologies to create a dynamic and responsive platform.
 
-![Portfolio Screenshot](./path/to/your/screenshot.png) 
-
 ## 🌟 Features
 
 - **Responsive Design:** Optimized for both desktop and mobile devices.
