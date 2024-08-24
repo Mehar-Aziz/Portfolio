@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import profileImage from '../assets/img/profie.jpeg';
+import meharImage from '../assets/img/Screenshot_2024-08-24_143228-removebg-preview.png';
 import '../styles/resume.css';
 
 const NavigationBar = () => {
@@ -15,7 +16,15 @@ const NavigationBar = () => {
   return (
     <Navbar bg="primary" expand="lg" fixed="top" variant="dark" id="sideNav">
       <Navbar.Brand href="#page-top">
-        <span className="d-block d-lg-none">Mehar Aziz</span>
+      <span className="d-block d-lg-none">
+          <img
+            className="img-fluid img-profile  mx-auto mb-2"
+            src={meharImage}
+            
+            alt="Profile"
+            style={{ width: '150px', height: '50px' }} 
+          />
+        </span>
         <span className="d-none d-lg-block">
           <img
             className="img-fluid img-profile rounded-circle mx-auto mb-2"
