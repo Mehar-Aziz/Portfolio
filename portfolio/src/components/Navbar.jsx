@@ -1,12 +1,20 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css'; 
-import profileImage from '../assets/img/profie.jpegd';
-import '../styles/resume.css'
+import React, { useState } from 'react';
+import { Navbar, Nav } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import profileImage from '../assets/img/profie.jpeg';
+import '../styles/resume.css';
 
-const Navbar = () => {
+const NavigationBar = () => {
+
+  const [expanded, setExpanded] = useState(false);
+
+  const handleNavClick = () => {
+    setExpanded(false);
+  };
+  
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-      <a className="navbar-brand js-scroll-trigger" href="#page-top">
+    <Navbar bg="primary" expand="lg" fixed="top" variant="dark" id="sideNav">
+      <Navbar.Brand href="#page-top">
         <span className="d-block d-lg-none">Mehar Aziz</span>
         <span className="d-none d-lg-block">
           <img
@@ -15,42 +23,20 @@ const Navbar = () => {
             alt="Profile"
           />
         </span>
-      </a>
-      <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav">
-          <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#experience">Experience</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#education">Education</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#skills">Skills</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#interests">Interests</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#awards">Projects</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+      </Navbar.Brand>
+      <Navbar.Toggle aria-controls="navbar-nav" onClick={() => setExpanded(expanded ? false : true)} />
+      <Navbar.Collapse id="navbar-nav">
+        <Nav className="mr-auto">
+          <Nav.Link href="#about" onClick={handleNavClick}>About</Nav.Link>
+          <Nav.Link href="#experience" onClick={handleNavClick} >Experience</Nav.Link>
+          <Nav.Link href="#education" onClick={handleNavClick}>Education</Nav.Link>
+          <Nav.Link href="#skills" onClick={handleNavClick}>Skills</Nav.Link>
+          <Nav.Link href="#interests" onClick={handleNavClick}>Interests</Nav.Link>
+          <Nav.Link href="#awards" onClick={handleNavClick}>Projects</Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 };
 
-export default Navbar;
+export default NavigationBar;
