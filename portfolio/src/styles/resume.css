@@ -238,3 +238,31 @@ button {
   }
   
       
+  @media (max-width: 767px) {
+    .animation {
+      height: 90px; 
+      overflow: hidden;
+      margin-left: 0;
+      margin-top: 1rem;
+    }
+  
+    .animation > div > div {
+      padding: 0.5rem 1rem;
+      height: 2.5rem;
+      margin-bottom: 2.5rem; 
+    }
+    .second {
+      display: none;
+    }
+    .third { 
+      display: none;
+    }
+  
+    @keyframes text-animation {
+      
+        0%, 40% {margin-top: 0;}         /* Mehar Aziz visible */
+        50%, 90% {margin-top: -2.5rem;}  /* Web Developer visible */
+        100% {margin-top: 0;}            /* Loop back to Mehar Aziz */
+      
+    }
+  }
