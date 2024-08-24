@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import profileImage from '../assets/img/profie.jpeg';
-import meharImage from '../assets/img/Screenshot_2024-08-24_143228-removebg-preview.png';
+import meharImage from '../assets/img/logo.png';
 import '../styles/resume.css';
 
 const NavigationBar = () => {
