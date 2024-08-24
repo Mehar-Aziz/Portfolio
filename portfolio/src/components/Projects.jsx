@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Card, Row, Col } from 'react-bootstrap';
 import databaseimg from '../assets/img/database.png';
 import hangmanimg from '../assets/img/Hangman.png';
@@ -47,6 +47,29 @@ const projects = [
 ];
 
 const Projects = () => {
+  useEffect(() => {
+    const cards = document.querySelectorAll('.project-card');
+
+    const onScroll = () => {
+      const triggerBottom = window.innerHeight / 5 * 4;
+
+      cards.forEach(card => {
+        const cardTop = card.getBoundingClientRect().top;
+
+        if (cardTop < triggerBottom) {
+          card.classList.add('visible');
+        } else {
+          card.classList.remove('visible');
+        }
+      });
+    };
+
+    window.addEventListener('scroll', onScroll);
+    onScroll();
+
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+
   return (
     <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
       <div className="my-auto">
@@ -55,7 +78,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <Col md={6} key={index}>
               <Card className="mb-4 project-card">
-              <Card.Img variant="top" src={project.image} alt={project.title} className='project-image' />
+                <Card.Img variant="top" src={project.image} alt={project.title} className='project-image' />
                 <Card.Body>
                   <Card.Title className='project-title'>{project.title}</Card.Title>
                   <Card.Text>{project.description}</Card.Text>
