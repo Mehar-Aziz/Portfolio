@@ -20,7 +20,7 @@ const Education = () => {
 
         <div className="resume-item d-flex flex-column flex-md-row">
           <div className="resume-content mr-auto">
-            <h3 className="mb-0">Punjab Group of Collages</h3>
+            <h3 className="mb-0">Punjab Group of Colleges</h3>
             <div className="subheading mb-3">FSC</div>
             <div>Pre-Engineering</div>
             <p>Grade: A+</p>
@@ -31,7 +31,7 @@ const Education = () => {
         </div>
         <div className="resume-item d-flex flex-column flex-md-row">
           <div className="resume-content mr-auto">
-            <h3 className="mb-0">Cadet Collage Chakwal</h3>
+            <h3 className="mb-0">Cadet College Chakwal</h3>
             <div className="subheading mb-3">Matric</div>
             <p>Grade: A+</p>
           </div>
